@@ -1,0 +1,133 @@
+/* Webpixels CSS */
+/* Utility and component-centric Design System based on Bootstrap for fast, responsive UI development */
+/* URL: https://github.com/webpixels/css */
+
+@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
+
+/* Bootstrap Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
+
+#idbody{
+    background-color: black !important;
+}
+
+.valid-input {
+    border-color: green !important;
+  }
+  
+  .invalid-input {
+    border-color: red !important;
+  }
+
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  @media (min-width: 350px){
+    #logoId{
+      height: 100% !important; 
+      width: 100vh !important; 
+      align-items: center !important;
+    }
+
+    #navbarVertical{
+      padding: 23px !important;
+      margin: 23px !important;
+    }
+    #traductoId{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    #mytraductId{
+      height: 45.5vh; width: 100% !important; 
+    }
+    #allMyFillId{
+     
+      margin: 23px !important;
+    }
+
+    #modalMyDropdown{
+      
+      margin-right: 9px !important;
+      bottom: 0 !important;
+      background-color: blue !important;
+      display: none;
+      color: white;
+      border-radius: 12px;
+     
+    }
+    #modalMyDropdown li {
+      text-align: left !important;
+    }
+  }
+
+  @media (min-width: 600px){
+    #logoId{
+      height: 100% !important; 
+      width: 100vh !important; 
+      align-items: center !important;
+    }
+    #navbarVertical{
+      padding: 23px !important;
+      margin: 23px !important;
+    }
+    #traductoId{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    #mytraductId{
+      height: 45.5vh !important; width: 100% !important; 
+    }
+    #allMyFillId{
+     
+      margin: 23px !important;
+    }
+
+    #modalMyDropdown{
+      margin-right: 9px !important;
+      bottom: 0 !important;
+      background-color: blue !important;
+      display: none;
+      color: white;
+      border-radius: 12px;
+       
+    }
+    #modalMyDropdown li {
+      text-align: left !important;
+    }
+  }
+
+#navbarVertical{
+  padding: 23px !important;
+  margin: 23px !important;
+  
+}
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #5ab652;
+    border-top-color: #e7e4fe;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

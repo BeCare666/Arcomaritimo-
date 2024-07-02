@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    
+}
+*{
+  font-size: 7px !important;
+}
+.invoice-container {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.header img {
+    max-width: 45px !important;
+}
+
+.title {
+    text-align: right;
+    font-size: 44px; 
+    font-weight: bold;
+}
+
+.paid-info {
+    background: #e0f7fa;
+    border: 1px solid #26a69a;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.info, .details, .totals {
+    margin-top: 20px;
+}
+
+.details th, .totals th {
+    background: #f5f5f5;
+}
+._overlay { 
+position: fixed;
+z-index: 2;
+left: 35%;
+right: 50%;
+bottom: 25px;
+align-items: center;
+justify-content: center;
+padding-bottom: 16px;
+}
+._overlay button{ 
+padding-right: 26px;
+padding-left: 26px;
+font-size: 10px !important;
+}
