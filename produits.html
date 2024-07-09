@@ -36,6 +36,9 @@
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<!-- modernizr js -->	
+	<script src="https://unpkg.com/jquery"></script>
+	<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+	<script src="translate/translate.js"></script>
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
@@ -141,28 +144,39 @@
 							<div class="st__main__menu">
 								<nav class="main__menu" id="mobile-menu">
 									<ul>
-										<li><a href="index.html"> Accueil </a>
+										<li><a href="index.html" id="INDEXID2"> </a>
 										
 										</li>
-										<li><a href="index.html#propos"> À propos  </a>
-										
-										</li>
-										<li><a href="index.html#services_"> Services</a>
-											 
-										</li>
-										<li><a href="produits.html"> Nos produits</a>
-											 
-										</li>
-										<li><a href="#"> Termes <i class="bi bi-chevron-down"></i> </a>
+										<li><a href="#propos" id="INDEXID3">  </a>
 											<ul class="sub__menu">
-												<li><a href="terms.html">Termes et conditions</a></li>
-												<li><a href="politique.html">Politique</a></li>
-												<li><a href="index.html#faq"> F.A.Q </a>
+												<a href="contact.html" id="INDEXID4"></a>
+												<a href="departement.html" id="DEPARTMENTS35"></a>
 											</ul>
-										</li> 	 
 										</li>
-										<li><a href="contact.html"> Contacts</a>
-											
+										<li><a href="#services_" id="INDEXID5"></a>
+											 
+										</li>
+										<li><a href="produits.html" id="INDEXID6"> </a>
+											 
+										</li>
+										<li><a href="#" id="INDEXID7">  </a>
+											<ul class="sub__menu">
+												<li><a href="terms.html" id="INDEXID8"></a></li>
+												<li><a href="politique.html" id="INDEXID9"></a></li>
+												<li><a href="#faq" id="INDEXID10">  </a>
+											</ul>
+										</li>
+										<li><a href="#" id="INDEXID11"></a>
+											<ul id="language-select" style="height: 300px; overflow: auto;" class="sub__menu"> 
+												<li style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/cn.jpeg" alt="cn"></li><hr>
+												<li  style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/en.jpeg" alt="en"></li><hr>
+												<li style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/fr.jpeg" alt="fr" ></li><hr>
+												<li style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/de.jpeg" alt="de"></li><hr>
+												<!-- <li style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/it.jpeg" alt="it"></li><hr> 
+												<li style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/pt.jpeg" alt="pt"></li><hr> 
+												<li  style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/es.jpeg" alt="es"></li>-->
+											  </ul>
+										</li> 	 
 										</li>
 									</ul>
 								</nav>
@@ -174,7 +188,7 @@
 											<a href="tel:+22962743576"> <i class="bi bi-telephone"></i> </a>
 										</div>
 										<div class="st-contact-content">
-											<span>Urgence</span>
+											<span id="INDEXID12"></span>
 											+229 62 74 35 76
 										</div>
 									</div>
@@ -233,12 +247,10 @@
 					<a href="#"> <img src="llogo.jpg" alt="logo not found" style="max-width: 50vh;"> </a>
 				</div>
 				<div class="st__footer__text">
-					<p>Notre organisation repose sur des valeurs telles que la performance, la fiabilité, 
-						l'engagement, le respect et l'écoute. Nous sommes prêts à vous accompagner pour 
-						transformer vos projets en réussites concrètes.</p>
+					<p id="INDEXID70"></p>
 				</div>
 				<div class="st__social__icon">
-					<h2>Informations sociales</h2>
+					<h2 id="INDEXID78"></h2>
 					<a href="#"> <i class="bi bi-facebook"></i> </a>
 					<a href="#"> <i class="bi bi-twitter"></i> </a>
 					<a href="#"> <i class="bi bi-pinterest"></i> </a>
@@ -247,19 +259,19 @@
 			</div>
 			<div class="col-lg-4 col-md-12 wow fadeInUpBig">
 				<div class="st__footer__title">
-					<h2> Secteurs d'activité </h2>
+					<h2 id="INDEXID71"></h2>
 				</div>
 				<div class="st__footer__link">
-					<a href="#"> Accueil </a>
-					<a href="#">  À propos </a>
-					<a href="#">Services </a>
-					<a href="#">Nos produits </a>
-					<a href="#"> Termes et conditions </a>
+					<a href="#" id="INDEXID72">  </a>
+					<a href="#" id="INDEXID73">  </a>
+					<a href="#" id="INDEXID74"> </a>
+					<a href="#" id="INDEXID75"> </a>
+					<a href="#" id="INDEXID76">  </a>
 				</div>
 			</div>			
 			<div class="col-lg-4 col-md-12 wow fadeInUpBig">
 				<div class="st__footer__title">
-					<h2>Prendre contact </h2>
+					<h2 id="INDEXID77"> </h2>
 				</div>
 				<div class="st__footer__link">
 					<a href="#">  Bénin Cotonou Akpakpa<br> Ghana, Ivory Coast, Togo</a>

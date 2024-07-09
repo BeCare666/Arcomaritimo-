@@ -341,11 +341,12 @@ Text Domain: Logistcwr
   position: relative;
   z-index: 1;
   left: 105px;
+  height: 11vh !important;
 }
 .st-contact-icon a i {
   display: inline-block;
-  width: 72px;
-  height: 72px;
+  width: 62px;
+  height: 62px;
   line-height: 72px;
   background: var(--st-header-meta-icon-bg);
   text-align: center;
@@ -699,7 +700,7 @@ button.st__btn {
   -o-transition: .5s;
 }
 .st__slider__carousel .owl-nav div i:hover{
-  background: var(--st-theme-color-two);
+  background: var(--st-theme-color-two);  
 }
 /* Slider Style Two */
 .slider__style2.st__slider__carousel .owl-nav {
@@ -711,6 +712,9 @@ button.st__btn {
 	background: #fff;
 	padding: 30px 30px;
 	/* border-radius: 50px 0 0 0; */
+}
+#INDEXID12{
+  display: none;
 }
 .slider__style2.st__slider__carousel .owl-nav div i {
   width: 66px;
@@ -1298,6 +1302,13 @@ button.st__btn {
 .p-relative{
   position: relative;
 }
+#INDEXID9{
+  display: none;
+}
+#language-select img {
+  width: 6vh;
+  height: 4vh;
+ }
 .st__service__btn {
   position: absolute;
   right: 0;
