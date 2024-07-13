@@ -38,15 +38,15 @@ Text Domain: Logistcwr
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
 
 :root{
-  --st-theme-color-one:#9af621; /*#f68b21*/
-  --st-theme-color-two:#00084d;
+  --st-theme-color-one:#4141f8; /*#f68b21*/
+  --st-theme-color-two:#020202;
   --st-theme-body-color:#525459;
   --st-theme-color-white:#fff;
   --st-testi-bg:#1d1d1d;
   --st-header-bg:#d1e4ea;
   --st-bg:#f5f4f9;
   --st-team-color:#f4f4f9;
-  --st-header-meta-icon-bg:#4cdfa6;
+  --st-header-meta-icon-bg:#5858ff;
   --st-project-bg:#ebebeb;
   --st-theme-dark-color:#171717;
   --st-theme-dark-color-two:#202020;
