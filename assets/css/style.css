@@ -38,8 +38,8 @@ Text Domain: Logistcwr
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
 
 :root{
-  --st-theme-color-one:#0074D9; /*#f68b21*/
-  --st-theme-color-two:#001f3f ;
+  --st-theme-color-one:#001f3f; /*#f68b21*/
+  --st-theme-color-two: #0074D9;
   --st-theme-body-color:#525459;
   --st-theme-color-white:#fff;
   --st-testi-bg:#1d1d1d;

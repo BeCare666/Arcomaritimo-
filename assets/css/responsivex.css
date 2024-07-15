@@ -25,10 +25,10 @@ section#counter-stats {
 
 /*/ end count stats /*/
 .stats h5{
-    color: white !important;
+    color: rgb(27, 21, 21) !important;
 }
 
 
 .stats .counting{
-    color: rgba(255, 255, 255, 0.836) !important;
+    color: rgba(27, 18, 18, 0.836) !important;
 }
